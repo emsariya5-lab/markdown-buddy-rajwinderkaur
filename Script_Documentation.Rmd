@@ -1,0 +1,41 @@
+<!-- AI Assistance Declaration: ChatGPT supported documentation planning and Markdown formatting. See AI_Appendix.md for prompts. The author is responsible for verifying all outputs. -->
+
+---
+title: "Synthetic Student Marks Analysis"
+author: "Rajwinder Kaur"
+output: html_document
+---
+
+# Purpose
+
+This document describes `analysis.R`, a small script that summarizes synthetic numeric marks using base R.
+
+## Requirements
+
+R version 4.0 or later is recommended. No additional packages are required for the calculations.
+
+## Inputs
+
+The script uses four synthetic numeric values: 75, 82, 68, and 91. These are demonstration values, not real student records.
+
+## R Script
+
+```{r}
+marks <- c(75, 82, 68, 91)
+
+average_mark <- mean(marks)
+median_mark <- median(marks)
+number_of_records <- length(marks)
+
+average_mark
+median_mark
+number_of_records
+```
+
+## Outputs
+
+The code chunk returns the average, median, and number of observations. Knit this document to generate the output.
+
+## Verification
+
+Check that the input contains four values. Independently calculate the mean and median, then compare the results with R's output. Preview or knit this `.Rmd` file and confirm that the headings and code chunk render correctly.
